@@ -1482,7 +1482,7 @@
   ====================================================*/
   .error-page {
     background-image: url("../images/hurunui-inland.jpg");
-    height: 900px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
