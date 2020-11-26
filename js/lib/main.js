@@ -54,6 +54,8 @@ function setYear() {
 }
 
 $(document).ready(function () {
-  setRandomImageAndLabel()
-    setYear()
+  if ($('#slider-image').length) {
+    setRandomImageAndLabel()
+  }
+  setYear()
 })
